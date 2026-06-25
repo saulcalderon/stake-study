@@ -319,7 +319,7 @@ export default function TermsPage() {
         }}
       >
         <p style={{ color: "var(--gray)", fontSize: "0.75rem" }}>
-          © 2024 STAKESTUDY PROJECT
+          © 2026 STAKESTUDY PROJECT
         </p>
       </footer>
     </div>

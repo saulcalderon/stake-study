@@ -12,7 +12,7 @@ export default function Footer() {
         padding: "30px 40px",
         borderTop: "3px solid var(--black)",
         background: "var(--white)",
-        textAlign: "center"
+        textAlign: "center",
       }}
     >
       {/* Logo */}
@@ -22,7 +22,7 @@ export default function Footer() {
           alignItems: "center",
           justifyContent: "center",
           gap: "10px",
-          marginBottom: "20px"
+          marginBottom: "20px",
         }}
       >
         <div
@@ -35,14 +35,12 @@ export default function Footer() {
             alignItems: "center",
             justifyContent: "center",
             fontWeight: 900,
-            fontSize: "0.6rem"
+            fontSize: "0.6rem",
           }}
         >
           SS
         </div>
-        <span style={{ fontWeight: 900, fontSize: "1.1rem" }}>
-          STAKESTUDY
-        </span>
+        <span style={{ fontWeight: 900, fontSize: "1.1rem" }}>STAKESTUDY</span>
       </div>
 
       {/* Links */}
@@ -51,7 +49,7 @@ export default function Footer() {
           display: "flex",
           justifyContent: "center",
           gap: "30px",
-          marginBottom: "20px"
+          marginBottom: "20px",
         }}
       >
         <Link
@@ -60,7 +58,7 @@ export default function Footer() {
             color: "var(--black)",
             fontSize: "0.85rem",
             fontWeight: 700,
-            textDecoration: "none"
+            textDecoration: "none",
           }}
         >
           {t("footer.terms")}
@@ -71,7 +69,7 @@ export default function Footer() {
             color: "var(--black)",
             fontSize: "0.85rem",
             fontWeight: 700,
-            textDecoration: "none"
+            textDecoration: "none",
           }}
         >
           {t("footer.rules")}
@@ -85,7 +83,7 @@ export default function Footer() {
           fontSize: "0.75rem",
           maxWidth: "500px",
           margin: "0 auto 15px",
-          lineHeight: 1.5
+          lineHeight: 1.5,
         }}
       >
         {t("footer.disclaimer")}
@@ -93,7 +91,7 @@ export default function Footer() {
 
       {/* Copyright */}
       <p style={{ color: "var(--gray)", fontSize: "0.75rem" }}>
-        © 2024 STAKESTUDY PROJECT
+        © 2026 STAKESTUDY PROJECT
       </p>
     </footer>
   );
