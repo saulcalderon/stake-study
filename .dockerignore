@@ -1,0 +1,21 @@
+node_modules
+**/node_modules
+.git
+.gitignore
+
+# build outputs
+**/dist
+**/.next
+**/.turbo
+**/coverage
+out
+
+# local env / editor
+**/.env
+**/.env.*
+.vscode
+.idea
+.DS_Store
+
+# logs
+**/*.log
