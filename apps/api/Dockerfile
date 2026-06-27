@@ -23,6 +23,9 @@ RUN yarn install --immutable
 FROM base AS build
 COPY --from=deps /app/node_modules ./node_modules
 COPY --from=pruner /app/out/full/ ./
+# out/full/ has package.json but not yarn.lock; yarn workspace needs both.
+COPY --from=deps /app/yarn.lock ./yarn.lock
+COPY --from=deps /app/.yarnrc.yml ./.yarnrc.yml
 RUN yarn workspace @quiz-hackathon/api prisma generate
 RUN yarn workspace @quiz-hackathon/api build
 
